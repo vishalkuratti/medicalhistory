@@ -1,0 +1,94 @@
+.navbar-text > a {
+	color: inherit;
+	text-decoration: none;
+}
+label {
+	font-family: 'Sansita', sans-serif;
+}
+body {
+	padding-top: 70px;
+	background-image: url("img3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height:640px;
+}
+
+.bg {
+	background-image: url("img3.jpg");
+}
+.bg1 {
+	background-image: url("img4.jpg");
+}
+h1,h2,h3,h4,p {
+	font-family: 'Sansita', sans-serif;
+	color: black;
+}
+#hide {
+		visibility:hidden;
+	}
+.upload {
+		border-color:#2C3E50;
+		border-radius:5px;
+		color:white;
+		background-color:black;
+		width:100px;
+		height:50px;
+	}
+.navbar-default {
+	background-color: #2C3E50;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: #FFFFFF;
+	background-color: #1A242F;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #18BC9C;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #1A242F;
+	color: #FFFFFF;
+}
+
+.btn-primary {
+	background-color: #2C3E50;
+	border-color: #2C3E50;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #FFFFFF;
+	background-color: #1E2A36;
+	border-color: #161F29; 
+}
+
